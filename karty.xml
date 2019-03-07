@@ -1,0 +1,135 @@
+<?xml version='1.0' ?>
+<Main>
+	<!--
+	Kierunek:
+		 5\	/6
+		4- 0 -1 <- Wybrany
+		 3/	\2
+	TypKierunku:
+		1 - Normalny
+		2 - Ostatni nacisniety
+		NR - Nierelatywny
+		R - w pelni losowy
+	-->
+	<Ogolne>
+		<hint id='IloscKart'>4</hint>
+	</Ogolne>
+	<Karta1>
+		<hint id='Nazwa'>Bieg</hint>
+		<hint id='Opis'>Ruch o 2 pola</hint>
+		<hint id='NrIkony'>1</hint>
+		<hint id='IloscAkcji'>1</hint>
+		<Akcja1>
+			<hint id='TypAkcji'>Ruch</hint>
+			<hint id='IloscPowtorzen'>2</hint>
+			<hint id='Opoznienie'>0</hint>
+			<hint id='CzasDzialania'>0</hint>
+			<hint id='ZlozonoscPola'>1</hint>
+			<Pole1>
+				<hint id='TypKierunku'>1</hint>
+				<hint id='IloscPowtorzen'>1</hint>
+				<hint id='Kierunek'>1</hint>
+			</Pole1>
+			<hint id='Obrazenia'>0</hint>
+		</Akcja1>
+	</Karta1>
+	<Karta2>
+		<hint id='Nazwa'>Atak</hint>
+		<hint id='Opis'>Ruch i atak</hint>
+		<hint id='NrIkony'>2</hint>
+		<hint id='IloscAkcji'>2</hint>
+		<Akcja1>
+			<hint id='TypAkcji'>Ruch</hint>
+			<hint id='IloscPowtorzen'>1</hint>
+			<hint id='Opoznienie'>0</hint>
+			<hint id='CzasDzialania'>0</hint>
+			<hint id='ZlozonoscPola'>1</hint>
+			<Pole1>
+				<hint id='TypKierunku'>1</hint>
+				<hint id='IloscPowtorzen'>1</hint>
+				<hint id='Kierunek'>1</hint>
+			</Pole1>
+			<hint id='Obrazenia'>0</hint>
+		</Akcja1>
+		<Akcja2>
+			<hint id='TypAkcji'>Atak</hint>
+			<hint id='IloscPowtorzen'>1</hint>
+			<hint id='Opoznienie'>0</hint>
+			<hint id='CzasDzialania'>0</hint>
+			<hint id='ZlozonoscPola'>1</hint>
+			<Pole1>
+				<hint id='TypKierunku'>2</hint>
+				<hint id='IloscPowtorzen'>1</hint>
+				<hint id='Kierunek'>1</hint>
+			</Pole1>
+			<hint id='Obrazenia'>30</hint>
+		</Akcja2>
+	</Karta2>
+	<Karta3>
+		<hint id='Nazwa'>Atak2</hint>
+		<hint id='Opis'>Ruch i atak</hint>
+		<hint id='NrIkony'>2</hint>
+		<hint id='IloscAkcji'>3</hint>
+		<Akcja1>
+			<hint id='TypAkcji'>Ruch</hint>
+			<hint id='IloscPowtorzen'>1</hint>
+			<hint id='Opoznienie'>0</hint>
+			<hint id='CzasDzialania'>0</hint>
+			<hint id='ZlozonoscPola'>1</hint>
+			<Pole1>
+				<hint id='TypKierunku'>1</hint>
+				<hint id='IloscPowtorzen'>1</hint>
+				<hint id='Kierunek'>1</hint>
+			</Pole1>
+			<hint id='Obrazenia'>0</hint>
+		</Akcja1>
+		<Akcja2>
+			<hint id='TypAkcji'>Atak</hint>
+			<hint id='IloscPowtorzen'>1</hint>
+			<hint id='Opoznienie'>0</hint>
+			<hint id='CzasDzialania'>0</hint>
+			<hint id='ZlozonoscPola'>1</hint>
+			<Pole1>
+				<hint id='TypKierunku'>2</hint>
+				<hint id='IloscPowtorzen'>1</hint>
+				<hint id='Kierunek'>2</hint>
+			</Pole1>
+			<hint id='Obrazenia'>10</hint>
+		</Akcja2>
+		<Akcja3>
+			<hint id='TypAkcji'>Atak</hint>
+			<hint id='IloscPowtorzen'>1</hint>
+			<hint id='Opoznienie'>0</hint>
+			<hint id='CzasDzialania'>0</hint>
+			<hint id='ZlozonoscPola'>1</hint>
+			<Pole1>
+				<hint id='TypKierunku'>2</hint>
+				<hint id='IloscPowtorzen'>1</hint>
+				<hint id='Kierunek'>6</hint>
+			</Pole1>
+			<hint id='Obrazenia'>10</hint>
+		</Akcja3>
+	</Karta3>
+	<Karta4>
+		<hint id='Nazwa'>Szarża</hint>
+		<hint id='Opis'>Szarża z opóźnieniem</hint>
+		<hint id='NrIkony'>4</hint>
+		<hint id='IloscAkcji'>1</hint>
+		<Akcja1>
+			<hint id='TypAkcji'>Ruch</hint>
+			<hint id='IloscPowtorzen'>1</hint>
+			<hint id='Opoznienie'>1</hint>
+			<hint id='CzasDzialania'>0</hint>
+			<hint id='ZlozonoscPola'>1</hint>
+			<Pole1>
+				<hint id='TypKierunku'>1</hint>
+				<hint id='IloscPowtorzen'>1</hint>
+				<hint id='Kierunek'>1</hint>
+			</Pole1>
+			<hint id='Obrazenia'>0</hint>
+		</Akcja1>
+	</Karta4>
+</Main>
+
+
+
